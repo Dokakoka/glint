@@ -1,0 +1,282 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    background-image: url("tree.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+.left {
+float: left;
+color: #FFFFFF;
+font-size: 40px;
+}
+
+.left span {
+    color: #39B54A;
+}
+
+.right {
+    float: right;
+    color: #39B54A;
+    font-size: 20px;
+}
+
+.section1 h3 {
+    color: #FFFFFF;
+    width: 53%;
+}
+
+.section1 h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    width: 53%;
+    float: left;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section1 {
+    margin-top: 150px;
+    align-items: left;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.project {
+    margin-top: 5%;
+}
+
+.project button {
+    color: #FFFFFF;
+    background: #000000;
+    padding: 20px;
+    font-family: montserrat-medium,sans-serif;
+    border: 2px solid #FFFFFF;
+    transition: 0.5s ease;
+}
+
+.btn1 {
+    margin-left: 30px;
+}
+
+.project button:hover {
+    background: #FFFFFF;
+    color: #070D10;
+}
+
+.number {
+    background-color: #39B54A;
+    height: 950px;
+}
+
+.number-header {
+    padding-top: 100px;
+}
+
+.number h3 {
+    background-color: #39B54A;
+    color: #000000;
+    text-align: center;
+    align-content: center;
+}
+
+.number h1 {
+    background-color: #39B54A;
+    text-align: center;
+    color: #FFFFFF;
+    width: 540px;
+    padding: 50px;
+    margin: 0 auto;
+    font-size: 60px;
+    border-bottom: 1px solid #6BC877;
+}
+
+.number p {
+    margin-top: 30px;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: lora-regular,serif;
+}
+
+.status {
+    margin-top: 70px;
+}
+
+.col {
+    padding: 60px;
+    display: inline-block;
+    border-right: 1px solid #6BC877;
+}
+
+.count {
+    font-family: montserrat-bold,sans-serif;
+    font-weight: bold;
+    font-size: 6.4rem;
+    color: #FFFFFF;
+}
+
+.col h5 {
+    text-align: center;
+    font-size: 20px;   
+}
+
+.what-we-do {
+    background: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.what-we-do h4 {
+    color: #39B54A;
+    font-size: 20px;
+    font-family: montserrat-medium,sans-serif;
+}
+
+.what-we-do h1 {
+    background: #FFFFFF;
+    width: 900px;
+    margin: 0 auto;
+    font-size: 50px;
+    padding: 20px;
+    font-family: montserrat-medium,sans-serif;
+    color: #000000;
+    border: none;
+}
+
+.border {
+    width: 400px;
+    margin: 0 auto;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.features {
+    background: #FFFFFF;
+}
+
+.feature-column {
+    background: #FFFFFF;
+    display: inline-block;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    width: 480px;
+}
+
+.feature-columns {
+    margin-top: 50px;
+}
+
+.feature-column h2{
+    font-family: montserrat-medium,sans-serif;
+    font-size: 35px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.feature-column p {
+    font-size: 20px;
+    color: #7E7575;
+}
+
+.fas {
+    font-size: 40px;
+    margin-right: 20px;
+    color: #39B54A;
+}
+
+.photo-header{
+    background: #111111;
+    padding-top: 100px;
+}
+
+.photos {
+    height: 2000px;
+}
+
+.photos h3 {
+    margin: 0 auto;
+    background: none;
+    font-family: montserrat-medium,sans-serif;
+    color:  #39B54A;
+}
+
+.photos h1 {
+    background: #111111;
+    font-family: montserrat-medium,sans-serif;
+    width: 880px;
+}
+
+.photo-column {
+    display: inline-block;
+}
+
+.photo-columns {
+    margin-top: 100px;
+}
+
+img {
+    width: 530px;
+    height: 550px;
+}
+
+.carousel {
+}
+
+.item .fab, .item .fas{
+    font-size: 130px;
+    color: #686868;
+}
+
+.item .fab:hover, .item .fas:hover{
+    font-size: 130px;
+    color: #000000;
+}
+
+.clients-header {
+    margin-top: 200px;
+}
+
+.clients {
+    background-color: #E6E6E6;
+    margin-top: 200px;
+}
+
+.clients h3{
+    color: #39B54A;
+    font-size: 20px;
+    background: none;
+}
+
+.clients h1 {
+    color: #000000;
+    width: auto;
+    border: none;
+    font-weight: bold;
+    background: none;
+}
+
+.carousel-indicators li {
+    background-color: #686868;
+    
+}
+
+.carousel-indicators .active {
+    background-color: #39B54A;
+}
+
+.carousel-inner .col-2 {
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+}
